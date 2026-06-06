@@ -39,6 +39,12 @@ export FOX_USE_SED_BINARY=1
 export FOX_USE_XZ_UTILS=1
 export FOX_REMOVE_AAPT=1
 export LC_ALL="C"
+export FOX_ENABLE_APP_MANAGER=1
+export FOX_KERNEL=4.14
+export OF_MAINTAINER="Teletubies"
+export OF_USE_HEXDUMP=1
+export BUILD_USERNAME="malkist"
+export BUILD_HOSTNAME="android"
 
 _ginkgo_apply_recovery_patches() {
     local device_tree
